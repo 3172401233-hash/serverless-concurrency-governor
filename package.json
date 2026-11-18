@@ -1,0 +1,14 @@
+{
+  "name": "serverless-concurrency-governor",
+  "version": "0.1.0",
+  "description": "Serverless 并发租约核心：预留并发、共享突发容量、排队与公平调度",
+  "type": "module",
+  "private": true,
+  "main": "src/governor.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
